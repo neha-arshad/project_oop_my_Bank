@@ -1,7 +1,10 @@
+#! usr/bin/env node
+
 import { faker } from "@faker-js/faker";
 import inquirer from "inquirer";
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
+
 
 const sleep = (ms: number = 2000) =>
 	new Promise((resolve) => setTimeout(resolve, ms));
